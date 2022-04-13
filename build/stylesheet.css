@@ -1,0 +1,23 @@
+.preload {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#earth {
+    position: relative;
+    top: 150px;
+    left: 150px;
+    animation-name: earthColor;
+    animation-duration: 8s;
+}
+
+
+@keyframes earthColor {
+    0%   {color: rgba(13, 0, 255, 0.947); height:25%}
+    25%  {color: rgb(0, 255, 251);height:45%}
+    50%  {color: rgb(0, 255, 30);height:65%}
+    100% {color: rgb(244, 244, 98);height:100%}
+  }
+
